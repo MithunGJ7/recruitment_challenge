@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-04-11T10:41:52.715426" rpa="false" schemaversion="5">
+<suite id="s1" name="Test" source="C:\Users\Mithun\Desktop\Python Project\automation_project\automation\test.robot">
+<test id="s1-t1" name="Open google.com" line="5">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-11T10:41:53.160639" elapsed="3.137095"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<arg>url=https://google.com</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-04-11T10:41:56.298735" elapsed="1.906791"/>
+</kw>
+<status status="PASS" start="2024-04-11T10:41:53.158640" elapsed="5.047885"/>
+</test>
+<status status="PASS" start="2024-04-11T10:41:52.717425" elapsed="5.491100"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
